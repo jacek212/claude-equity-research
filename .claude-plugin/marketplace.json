@@ -6,13 +6,12 @@
   },
   "metadata": {
     "description": "Claude Code plugins for professional equity research and financial analysis",
-    "version": "1.0.0",
-    "pluginRoot": "commands"
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "trading-ideas",
-      "source": "trading-ideas.md",
+      "source": "./plugins/trading-ideas",
       "description": "Institutional-grade equity research reports via /trading-ideas command. Analyzes company financials, technical indicators, market positioning, insider activity, and provides BUY/SELL/HOLD recommendations with price targets.",
       "version": "1.0.0",
       "author": {

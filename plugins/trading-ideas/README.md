@@ -1,12 +1,12 @@
-# Claude Code Commands
+# Trading Ideas Plugin
 
-This directory contains the core `/trading-ideas` command for Claude Code integration.
+This directory contains the `/trading-ideas` command for Claude Code integration.
 
 ## Installation
 
-### Quick Installation (Recommended)
+### Marketplace Installation (Recommended)
 ```bash
-curl -o ~/.claude/commands/trading-ideas.md https://raw.githubusercontent.com/quant-sentiment-ai/claude-equity-research/main/commands/trading-ideas.md
+/plugin marketplace add jacek212/claude-equity-research
 ```
 
 ### Manual Installation
@@ -15,7 +15,7 @@ curl -o ~/.claude/commands/trading-ideas.md https://raw.githubusercontent.com/qu
 git clone https://github.com/quant-sentiment-ai/claude-equity-research.git
 
 # Copy command to Claude Code
-cp claude-equity-research/commands/trading-ideas.md ~/.claude/commands/
+cp claude-equity-research/plugins/trading-ideas/commands/trading-ideas.md ~/.claude/commands/
 ```
 
 ## Usage
@@ -88,7 +88,7 @@ To update the command with latest improvements:
 
 ```bash
 # Download latest version
-curl -o ~/.claude/commands/trading-ideas.md https://raw.githubusercontent.com/quant-sentiment-ai/claude-equity-research/main/commands/trading-ideas.md
+curl -o ~/.claude/commands/trading-ideas.md https://raw.githubusercontent.com/quant-sentiment-ai/claude-equity-research/main/plugins/trading-ideas/commands/trading-ideas.md
 
 # Verify update
 head -10 ~/.claude/commands/trading-ideas.md
@@ -99,7 +99,7 @@ head -10 ~/.claude/commands/trading-ideas.md
 For issues or feature requests:
 - [GitHub Issues](https://github.com/quant-sentiment-ai/claude-equity-research/issues)
 - [Discussions](https://github.com/quant-sentiment-ai/claude-equity-research/discussions)
-- [Documentation](../docs/)
+- [Documentation](../../docs/)
 
 ---
 
