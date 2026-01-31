@@ -6,5 +6,5 @@
     "name": "quant-sentiment-ai",
     "email": "quant.sentiment.ai@gmail.com"
   },
-  "commands": "commands"
+  "commands": "./commands/"
 }
